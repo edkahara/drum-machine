@@ -1,0 +1,36 @@
+#drum-machine {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.drum-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.drum-pad {
+  height: 20vh;
+  width: 20vh;
+  border: 3px solid #80b3ff;
+  margin: 5px;
+  font-family: cursive;
+  text-decoration: none;
+  font-size: 1vh;
+}
+#name {
+  font-size: 3vw;
+}
+#instructions {
+  font-size: 1vw;
+}
+.active {
+  background-color: yellow;
+}
+#display {
+  width: 20vh;
+  margin: 0 auto;
+  height: 5vh;
+  background-color: grey;
+  font-size: 3vh;
+  font-family: serif;
+}
